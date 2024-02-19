@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(218, 218, 218);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    float: inline-start;
+    font-size: 16px;
+    box-shadow: 3px 3px 3px -2px rgba(0,0,0,.2);
+}
+
+footer {
+    position: sticky;
+    background-color: white;
+    color:rgb(173, 173, 173);
+    text-align: left;
+    padding: 10px;
+    font-size: 12px;
+}
+
+hr {
+    margin: 80px 0 80px 0;
+}
+
+code {
+    color: rgb(201, 99, 255);
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+    border-radius: 3px;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+
+a.blueLink {
+    color: rgb(30, 144, 255);
+    font-weight: bold;
+}
+
+a.blueLink:hover {
+    color: rgb(23, 97, 172);
+}
+
+ul.listSpacing li {
+    padding: 10px;
+}
+
+/* Navigation Bar */
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+  
+ul.navBar li {
+    float: left;
+}
+
+ul.navBar li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+ul.navBar li a:hover:not(.active) {
+    background-color: #ddd;
+}
+  
+ul.navBar li a.active {
+    color: white;
+    background-color: dodgerblue;
+}
+
+/* Classes */
+.backgroundImageLayout {
+    background-image: url('polybanner.jpg'); background-repeat: no-repeat; background-size: cover;
+}
+
+.divSpacing {
+    padding: 30px;
+}
+
+.bannerSection {
+    background-color: white;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 110px;
+}
+
+.section {
+    background-color: white;
+    text-align: left;
+    padding-left: 110px;
+    padding-top: 80px;
+}
+
+.sectionTab { /* text-indent property is not used because it does not affect list items.*/
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sectionSpacing {
+    margin-bottom: 0px;
+    background-color: white;
+}
+
+.nestedlistTitleSpacing { /* Use for nested list titles ONLY */
+    padding: 5px 0 0 30px;
+}
+
+.imgShadow {
+    box-shadow: 3px 3px 3px -2px rgba(0, 0, 0, 0.582);
+}
+
+.h1Class {
+    font-size: 62px;
+}
+
+.h2Class {
+    font-size: 36px;
+    margin-top: -40px;
+}
+
+.h3Class {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.titleSize {
+    font-size: 64px;
+}
+
+.fadedText {
+    color:rgb(102, 102, 102);
+}
